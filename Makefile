@@ -3,7 +3,7 @@ CFLAGS=-fPIC -Wall
 LDFLAGS=-shared
 TARGET=build/pam_fdkey.so
 
-all: $(OBJECTS)
+all: clean $(OBJECTS)
 	gcc $(LDFLAGS) -o $(TARGET) $(OBJECTS)
 
 %.o: %.c
