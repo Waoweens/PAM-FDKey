@@ -3,6 +3,7 @@ OBJECTS=$(BUILD_DIR)/pam_fdkey.o
 CFLAGS=-fPIC -Wall
 LDFLAGS=-shared
 TARGET=$(BUILD_DIR)/pam_fdkey.so
+PAM_TARGET=/lib/security
 
 all: clean $(OBJECTS)
 	gcc $(LDFLAGS) -o $(TARGET) $(OBJECTS)
@@ -15,4 +16,4 @@ clean:
 	rm -rf $(BUILD_DIR)
 
 install:
-	install -m 0755 $(TARGET) /lib/security/
+	install -m 0755 $(TARGET) $(PAM_TARGET)/
