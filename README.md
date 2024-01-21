@@ -2,11 +2,17 @@
 
 use a flash drive as a key for your computer
 
+this comes in 2 parts: the PAM module and the daemon
+
+the reason why there's a daemon, is because i am really bad at C
+
+PRs to rewrite everything in C are welcome \:3
+
 ## Warning
 
 this is not secure, do not use this for high security applications
 
-i am using this to keep people out of my computer while not having to type an extremely long password.
+i am using this to keep people out of my computer whilst not having to type an extremely long password.
 
 ## License
 PAM-FDKey - authenticate PAM with a flash drive
