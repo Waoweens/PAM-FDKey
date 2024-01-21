@@ -1,5 +1,8 @@
 # PAM-FDKey
 
+> [!CAUTION]
+> this project is in the early stages and is not ready for use AT ALL.
+
 use a flash drive as a key for your computer
 
 this comes in 2 parts: the PAM module and the daemon
@@ -16,6 +19,7 @@ i am using this to keep people out of my computer whilst not having to type an e
 
 ## License
 PAM-FDKey - authenticate PAM with a flash drive
+
 Copyright (C) 2024 Waoweens
 
 This program is free software: you can redistribute it and/or modify
