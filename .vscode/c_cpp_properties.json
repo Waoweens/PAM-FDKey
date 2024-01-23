@@ -3,7 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include/dbus-1.0",
+                "/usr/lib/dbus-1.0/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
